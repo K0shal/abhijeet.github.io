@@ -157,3 +157,18 @@ h5{
     font-weight: bolder;
     color: rgb(255, 255, 255);
 }
+@media screen and (max-width: 800px) {
+    body {
+     border: 6px solid black;
+    }
+    .row{
+        width: 100%;
+    }
+    .up div{
+        width: fit-content;
+    }
+    .down{
+        justify-content: center;
+        border: 1px solid;
+    }
+  }
